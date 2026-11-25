@@ -4,11 +4,11 @@ A coding agent in your terminal. Written in Ruby. MIT licensed.
 
 ```bash
 curl -fsSL https://elelem.sh/install | sh
-elelem
+elelem-shell
 ```
 
 The script installs Ruby 4.0 with [rv](https://rv.dev), elelem and a local
-model. The model runs inside the process. Nothing leaves the machine.
+model. No key. The model runs inside the process.
 
 A plugin is one Ruby file. Models, tools and interfaces are plugins.
 
@@ -27,11 +27,7 @@ A plugin is one Ruby file. Models, tools and interfaces are plugins.
 | [mcp](https://github.com/elelem-sh/mcp) | MCP servers as tools. | ready |
 | [skills](https://github.com/elelem-sh/skills) | Agent skills, on demand. | ready |
 | [server](https://github.com/elelem-sh/server) | elelem in a browser tab. | alpha |
-| [evals](https://github.com/elelem-sh/evals) | Test the agent, not the model. | alpha |
-| [ratatui](https://github.com/elelem-sh/ratatui) | A Rust terminal UI. | alpha |
-| [candle](https://github.com/elelem-sh/candle) | Ruby to Rust, in-process. | lab |
 | [diffusion](https://github.com/elelem-sh/diffusion) | Images and video, locally. | lab |
-| [ggml](https://github.com/elelem-sh/ggml) | A transformer, by hand. | lab |
 | [elelem.sh](https://github.com/elelem-sh/elelem.sh) | The website. | |
 
 Each gem is `elelem-NAME` on [RubyGems](https://rubygems.org/search?query=elelem-).
